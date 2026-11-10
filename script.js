@@ -7,7 +7,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 const marker = L.marker([8.31058, 124.85926]).addTo(map);
-marker.bindPopup("<b>Zone 3 Sankanan, Manolo Fortich, Bukidnon</b><p>Welcome to Dahiyag House!🏠🥰 </p>");
+marker.bindPopup("<b>Zone 3 Sankanan, Manolo Fortich, Bukidnon</b><p>Welcome to Dahiyag House!🏠 </p>");
 
 L.circle([8.31058, 124.85926], {
   color: "green",
@@ -29,9 +29,9 @@ map.on("click", function (event) {
 });
 
 const locations = [
-  { name: "Sankanan National School 🏫", lat: 8.31159, lng:  124.85885, brgy: "Zone 3, Sankanan" },
-  { name: "Sankanan Elementary School ", lat:  8.31347, lng: 124.85873, brgy: "Zone 2, Sankanan" },
-  { name: "Tidalgo Store", lat: 8.31508, lng: 124.85937, brgy: "Zone 2, Sankanan" },
+  { name: "Landmark", lat: 8.30851 , lng:  124.85897, brgy: "Zone 1, Sankanan" },
+  { name: "Landmark", lat: 8.31481 , lng: 124.85978 , brgy: "Zone 4, Sankanan" },
+  { name: "Landmark", lat: 8.31252 , lng: 124.85924, brgy: "Zone 3, Sankanan" },
   
 ];
 
